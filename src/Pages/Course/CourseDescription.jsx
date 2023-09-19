@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import { useLocation } from "react-router-dom";
 
-import HomeLayout from "../Layouts/HomeLayout";
+import HomeLayout from "../../Layouts/HomeLayout";
 
 function CourseDescription() {
 
