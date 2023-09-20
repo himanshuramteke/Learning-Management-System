@@ -16,6 +16,8 @@ import Login from './Pages/Login';
 import CourseDescription from './Pages/Course/CourseDescription';
 import EditProfile from './Pages/User/EditProfile';
 import Profile from './Pages/User/Profile';
+import Checkout from './Pages/Payment/Checkout';
+import CheckoutSuccess from './Pages/Payment/CheckoutSuccess';
 
 function App() {
 
@@ -40,6 +42,8 @@ function App() {
          <Route element={<RequireAuth allowedRoles={["ADMIN", "USER"]} />}>
           <Route path='/user/profile' element={<Profile />} />
           <Route path='/user/editprofile' element={<EditProfile />} />
+          <Route path='/checkout' element={<Checkout />} />
+          <Route path='/checkout/success' element={<CheckoutSuccess />} />
         </Route>
 
          <Route path="/*" element={<NotFound />}></Route>
