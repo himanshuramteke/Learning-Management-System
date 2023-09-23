@@ -1,4 +1,4 @@
-# LMS Frontend
+# Learning Management System (LMS) Frontend
 
 
 ### Setup Instruction
